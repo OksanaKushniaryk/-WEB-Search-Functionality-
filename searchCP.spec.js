@@ -20,7 +20,7 @@ describe('SearchCP', function() {
       const response = await axios.post('https://api.stage.vcc.hebronsoft.com/web-api/community-partner/list', {
         filter: { search: "animals" },
         query: {
-          limit: "15",
+          limit: "50",
           offset: "0",
           order: "ASC",
           orderBy: "random",
