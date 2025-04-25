@@ -23,7 +23,7 @@ describe('searchV', function() {
           courtOrderedService: false
         },
         query: {
-          limit: "15",
+          limit: "50",
           offset: "0",
           order: "DESC",
           orderBy: "updated"
