@@ -43,7 +43,7 @@ describe('SearchDG', function() {
         {
             filter: { search: "need" },
             query: {
-                limit: "15",
+                limit: "50",
                 offset: "0",
                 order: "DESC",
                 orderBy: "updated"
